@@ -5,22 +5,22 @@ Most retail data is noisy, so I built NovaMart Analytics to find the signal. I s
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 * **Python:** Data generation (Faker), EDA (Pandas), and Visualization (Seaborn).
 * **SQL:** Relational database design (MySQL) and complex analytical querying.
 * **Analysis:** RFM (Recency, Frequency, Monetary) Framework.
 
-## 📈 Key Business Insights
+## Key Business Insights
 * **Churn Prevention:** Identified that 22% of high-value "Loyal" customers had not purchased in 6+ months.
 * **Growth Drivers:** Electronics accounts for 45% of total revenue; recommended an up-sell strategy for protection plans.
 * **Operations:** Discovered a 15% return rate in Clothing, specifically tied to sizing inconsistencies in the Miami flagship.
 
-## 🚀 How to Run
+## How to Run
 1. Clone this repository.
 2. Install dependencies: `pip install -r requirements.txt`.
 3. Run the analysis: `python3 novamart_final.py`.
 
-## 📁 Project Structure
+## Project Structure
 * `novamart_final.py`: Main data pipeline and visualization script.
 * `sql_scripts/`: MySQL schema and performance queries.
 * `requirements.txt`: Environment configuration.
