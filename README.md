@@ -24,3 +24,6 @@ Most retail data is noisy, so I built NovaMart Analytics to find the signal. I s
 * `novamart_final.py`: Main data pipeline and visualization script.
 * `sql_scripts/`: MySQL schema and performance queries.
 * `requirements.txt`: Environment configuration.
+## Code Highlights
+* **Python:** [novamart_final.py](./novamart_final.py) - Contains the logic for data generation and RFM segmentation.
+* **SQL:** [analysis_queries.sql](./sql_scripts/analysis_queries.sql) - Features complex joins, window functions for customer ranking, and revenue trend analysis.
