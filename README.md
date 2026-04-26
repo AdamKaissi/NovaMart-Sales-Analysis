@@ -1,7 +1,7 @@
 # NovaMart Retail Analytics
 ### End-to-End Retail Intelligence & Customer Segmentation
 
-Most retail data is noisy, so I built NovaMart Analytics to find the signal. I simulated a 10k-record dataset to solve real-world headaches like inventory bloat and churn. By segmenting 500+ shoppers, I flagged a 22% churn risk that traditional reporting misses. My approach: data isn't just numbers; it's about knowing exactly what to do next.
+Most retail data is noisy, so I built NovaMart Analytics to find the signal and analyzed a 3-year fiscal cycle (2022-2024) to identify long-term growth patterns and customer loyalty shifts . I simulated a 10k-record dataset to solve real-world headaches like inventory bloat and churn. By segmenting 500+ shoppers, I flagged a 22% churn risk that traditional reporting misses. I don't just find the signal in the noise; I translate it into the next strategic move for the business.
 
 ---
 
