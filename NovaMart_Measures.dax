@@ -1,0 +1,41 @@
+/* NOVAMART RETAIL ANALYSIS - DAX SCRIPT
+   Adam El Kaissi
+   Date: April 2026
+   Description: Core measures for calculating financial performance and 
+   handling data relationships between Sales and Product tables.
+*/
+
+// --- 1. TOTAL REVENUE ---
+// Calculates the total value of sales by multiplying quantity by the unit price.
+// Since Unit Price lives in the Products table, we use RELATED to pull it into the calculation.
+Total Revenue = 
+SUMX(
+    'sales 1', 
+    'sales 1'[Quantity] * RELATED('products 2'[Unit_Price])
+)
+
+
+// --- 2. TOTAL QUANTITY ---
+// A simple count of items sold across all transactions.
+Total Units Sold = SUM('sales 1'[Quantity])
+
+
+// --- 3. AVERAGE ORDER VALUE (AOV) ---
+// Measures the average dollar amount spent per transaction. 
+// Highly useful for identifying if customers are buying premium or budget items.
+Average Order Value = 
+DIVIDE(
+    [Total Revenue], 
+    DISTINCTCOUNT('sales 1'[Transaction_ID]), 
+    0
+)
+
+
+// --- 4. CATEGORY REVENUE % ---
+// Calculates what percentage of total company revenue a specific category represents.
+// Uses ALL() to ignore filters so we can get the grand total for the denominator.
+% of Total Revenue = 
+DIVIDE(
+    [Total Revenue], 
+    CALCULATE([Total Revenue], ALL('products 2'[Category]))
+)
