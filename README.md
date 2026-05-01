@@ -1,5 +1,5 @@
 # NovaMart Retail Analytics
-### End-to-End Retail Intelligence & Customer Segmentation
+### Executive Summary
 
 I transformed 10,000+ raw retail transactions into a Power BI executive tool to solve NovaMart’s lack of visibility into categorical profitability. Using DAX and relational modeling, I identified a $5.26M revenue total and uncovered a critical 15% return anomaly in the Clothing category.
 
