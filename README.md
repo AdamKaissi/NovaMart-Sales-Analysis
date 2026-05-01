@@ -21,7 +21,7 @@ To resolve these visibility gaps, I implemented a robust end-to-end data pipelin
 
 Data Integration: Merged separate "Sales" and "Products" data sources using a Left Outer Join in Power Query to connect transaction volume with unit pricing.
 
-Modeling & Logic: Developed a relational schema and authored custom DAX measures—including Total Revenue using SUMX and RELATED logic to ensure accurate row-level calculations.
+Modeling & Logic: Developed a relational schema and authored custom DAX measures including Total Revenue using SUMX and RELATED logic to ensure accurate row-level calculations.
 
 Visual Storytelling: Designed a high-density dashboard featuring:
 
